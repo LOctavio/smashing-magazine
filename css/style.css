@@ -1,10 +1,27 @@
-nav{
+.container > h1{
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.first-row-main-articles{
+  padding-top: 150px;
+  height: 702.4px;
+}
+
+.second-row-main-articles{
+  height: 524.5px;
+}
+
+nav {
   display: flex;
   height: 60px;
   align-items: center;
 }
 
-nav div{
+nav div {
   flex-grow: 1;
   text-align: center;
 }
@@ -14,7 +31,7 @@ nav div{
   grid-template-columns: repeat(2, 1fr);
 }
 
-.three-articles-section{
+.three-articles-section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
