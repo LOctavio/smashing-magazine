@@ -1,5 +1,13 @@
+/* #191919
+  #242424
+  #545454
+  #d1d1d1
+*/
+
+
 body {
   font-family: 'Dosis', sans-serif;
+  color: white;
 }
 
 /* NAVBAR */
@@ -26,16 +34,22 @@ nav div {
 
 .container > h1 {
   position: absolute;
+  padding: 10px;
   top: 170px;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
+  color: black;
   background-color: white;
   font-size: 32px;
 }
 
-.element-level-one{
-  background-color: #373637;
+.element-level-one {
+  background-color: #191919;
+}
+
+.element-level-two {
+  background-color: #242424;
 }
 
 .first-row-main-articles {
@@ -52,22 +66,37 @@ nav div {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.posts-group article{
+.posts-group article {
   padding-left: 50px;
   padding-right: 50px;
   font-size: 36px;
   border: 1px solid black;
 }
 
+/* MEMBERSHIP */
 .membership {
   height: 465px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 50px 50px;
   font-size: 25px;
   font-weight: bolder;
-  background-color: turquoise;
 }
+
+.membership-subscribe-btn {
+  width: 320px;
+  height: 80px;
+  clear: both;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.membership-character {
+  width: 200px;
+  height: 250px;
+  float: right;
+  border-radius: 10px;
+}
+
+/* MEMBERSHIP */
 
 .three-articles-section {
   display: grid;
