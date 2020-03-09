@@ -13,6 +13,29 @@ p {
   margin: 0;
 }
 
+.element-level-one {
+  background-color: #191919;
+}
+
+.element-level-two {
+  background-color: #282828;
+}
+
+.element-level-three {
+  background-color: #656565;
+}
+
+.element-level-four {
+  background-color: #9a9a9a;
+  color: black;
+}
+
+.padding,
+.posts-group article {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 /* NAVBAR */
 
 nav {
@@ -35,6 +58,8 @@ nav div {
 
 /* NAVBAR */
 
+/* TITLE */
+
 .container > h1 {
   position: absolute;
   padding: 10px;
@@ -47,22 +72,9 @@ nav div {
   font-size: 32px;
 }
 
-.element-level-one {
-  background-color: #191919;
-}
+/* TITLE */
 
-.element-level-two {
-  background-color: #282828;
-}
-
-.element-level-three {
-  background-color: #656565;
-}
-
-.element-level-four {
-  background-color: #9a9a9a;
-  color: black;
-}
+/* MAIN ARTICLES */
 
 .first-row-main-articles {
   padding-top: 150px;
@@ -72,6 +84,10 @@ nav div {
 .second-row-main-articles {
   height: 524.5px;
 }
+
+/* MAIN ARTICLES */
+
+/* ARTICLES GENERAL PROPERTIES */
 
 .posts-group {
   display: grid;
@@ -84,8 +100,6 @@ nav div {
 }
 
 .posts-group article {
-  padding-left: 50px;
-  padding-right: 50px;
   font-size: 36px;
 }
 
@@ -95,27 +109,14 @@ nav div {
   height: 462px;
 }
 
+/* ARTICLES GENERAL PROPERTIES */
+
+/* MEMBERSHIP */
+
 .announce-and-membership {
   height: 462px;
 }
 
-#person-of-week-element {
-  height: 330px;
-  padding-left: 40px;
-  padding-top: 40px;
-  font-size: 20px;
-  font-family: 'Times New Roman', Times, serif;
-  text-transform: uppercase;
-}
-
-#person-of-week-element div {
-  height: 260px;
-  width: 260px;
-  float: left;
-  margin-right: 30px;
-}
-
-/* MEMBERSHIP */
 .membership {
   height: 465px;
   padding: 50px 50px;
@@ -153,14 +154,6 @@ nav div {
   text-align: center;
   line-height: 460px;
   font-size: 36px;
-}
-
-#person-week-articles h2 {
-  font-size: 30px;
-}
-
-#person-week-articles article {
-  height: 260px;
 }
 
 /* MEMBERSHIP */
@@ -208,8 +201,6 @@ nav div {
 
 .smashing-book-announcement {
   height: 386px;
-  padding-left: 50px;
-  padding-right: 50px;
   font-size: 36px;
 }
 
@@ -245,10 +236,32 @@ nav div {
 
 /*  GUIDES */
 
-footer { 
+#person-of-week-element {
+  height: 330px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+}
+
+#person-of-week-element div {
+  height: 260px;
+  width: 260px;
+  float: left;
+  margin-right: 30px;
+}
+
+#person-week-articles article {
+  height: 260px;
+}
+
+#person-week-articles h2 {
+  font-size: 30px;
+}
+
+/* FOOTER */
+
+footer {
   height: 500px;
-  padding-left: 50px;
-  padding-right: 50px;
   padding-top: 80px;
   background-color: darkgray;
   text-align: center;
@@ -270,7 +283,7 @@ footer span {
   height: 60px;
 }
 
-.topics li{
+.topics li {
   flex-basis: 120px;
 }
 
@@ -278,6 +291,8 @@ footer span {
   float: left;
 }
 
-#footer-picture-right{
+#footer-picture-right {
   float: right;
 }
+
+/* FOOTER */
