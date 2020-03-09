@@ -14,7 +14,7 @@ We did a design teardown and a heatmap to highlight each element of the page acc
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://rawcdn.githack.com/LOctavio/smashing-magazine/7d65bcd26f9f5799ff53535811b8c884bd4b316f/index.html)
 
 
 ## Getting Started
@@ -33,6 +33,7 @@ Before you continue, be sure that you have installed:
 
 * Github: [@LOctavio](https://github.com/LOctavio)
 * Twitter: [@Luis Octavio Ram_ram431](https://twitter.com/Octavio_ram431)
+* Linkedin: [linkedin](https://www.linkedin.com/in/luis-octavio-ramirez-cruz-714521178/)
 
 👤 **Rossiel Carranza**
 
