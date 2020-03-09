@@ -1,5 +1,4 @@
 
-
 body {
   font-family: 'Dosis', sans-serif;
   color: white;
@@ -36,7 +35,7 @@ nav div {
 
 /* NAVBAR */
 
-.container > h1 {
+.container > h2 {
   position: absolute;
   padding: 10px;
   top: 170px;
@@ -97,7 +96,7 @@ nav div {
 }
 
 .announce-and-membership {
-  height:  462px;
+  height: 462px;
 }
 
 #person-of-week-element {
@@ -109,7 +108,7 @@ nav div {
   text-transform: uppercase;
 }
 
-#person-of-week-element div{
+#person-of-week-element div {
   height: 260px;
   width: 260px;
   float: left;
@@ -157,7 +156,7 @@ nav div {
   font-size: 30px;
 }
 
-#person-week-articles article{
+#person-week-articles article {
   height: 260px;
 }
 
@@ -204,6 +203,27 @@ nav div {
   grid-template-columns: 1fr 2fr;
 }
 
+.smashing-book-announcement {
+  height: 386px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 36px;
+}
+
+.smashing-book-announcement p {
+  line-height: 386px;
+  width: 250px;
+  float: left;
+}
+
+.smashing-book-picture {
+  width: 200px;
+  height: 300px;
+  float: right;
+}
+
+/*  GUIDES */
+
 .guides {
   height: 924px;
   font-size: 26px;
@@ -212,21 +232,32 @@ nav div {
 
 .guides div {
   padding: 50px 50px 0 50px;
-  max-height: 462px;
+  min-height: 462px;
   border: 1px solid black;
 }
 
-#smashing-news {
+#guides-smashing-news {
   grid-column: 2/4;
 }
 
-footer {
+/*  GUIDES */
+
+footer { 
   height: 500px;
+  padding-left: 50px;
+  padding-right: 50px;
   background-color: darkgray;
 }
 
 .topics {
+  margin: 0;
+  padding-top: 150px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+.footer-picture {
+  width: 250px;
+  height: 200px;
 }
