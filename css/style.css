@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Dosis', sans-serif;
-  color: white;
+  /* color: white; */
 }
 
 /* NAVBAR */
@@ -66,11 +66,22 @@ nav div {
   grid-template-columns: repeat(2, 1fr);
 }
 
+.two-columns-element {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
 .posts-group article {
   padding-left: 50px;
   padding-right: 50px;
   font-size: 36px;
   border: 1px solid black;
+}
+
+.article-tittle-underlined {
+  font-size: 26px;
+  text-decoration: underline;
+  height: 460px;
 }
 
 /* MEMBERSHIP */
