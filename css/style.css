@@ -35,7 +35,7 @@ nav div {
 
 /* NAVBAR */
 
-.container > h2 {
+.container > h1 {
   position: absolute;
   padding: 10px;
   top: 170px;
@@ -139,10 +139,13 @@ nav div {
   width: 300px;
 }
 
-.membership-character {
+#membership-character {
+  float: right;
+}
+
+.images-size {
   width: 200px;
   height: 250px;
-  float: right;
   border-radius: 10px;
 }
 
@@ -246,18 +249,35 @@ footer {
   height: 500px;
   padding-left: 50px;
   padding-right: 50px;
+  padding-top: 80px;
   background-color: darkgray;
+  text-align: center;
+  position: relative;
+}
+
+footer span {
+  position: absolute;
+  bottom: 150px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .topics {
   margin: 0;
-  padding-top: 150px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  height: 60px;
 }
 
-.footer-picture {
-  width: 250px;
-  height: 200px;
+.topics li{
+  flex-basis: 120px;
+}
+
+#footer-picture-left {
+  float: left;
+}
+
+#footer-picture-right{
+  float: right;
 }
