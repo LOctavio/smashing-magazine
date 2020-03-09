@@ -90,14 +90,30 @@ nav div {
   font-size: 36px;
 }
 
-.article-tittle-underlined article{
+.article-tittle-underlined article {
   font-size: 26px;
   text-decoration: underline;
   height: 462px;
 }
 
-.announce-and-membership{
+.announce-and-membership {
   height:  462px;
+}
+
+#person-of-week-element {
+  height: 330px;
+  padding-left: 40px;
+  padding-top: 40px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+}
+
+#person-of-week-element div{
+  height: 260px;
+  width: 260px;
+  float: left;
+  margin-right: 30px;
 }
 
 /* MEMBERSHIP */
@@ -131,10 +147,18 @@ nav div {
   border-radius: 10px;
 }
 
-.membership-text{
+.membership-text {
   text-align: center;
   line-height: 460px;
+  font-size: 36px;
+}
+
+#person-week-articles h2 {
   font-size: 30px;
+}
+
+#person-week-articles article{
+  height: 260px;
 }
 
 /* MEMBERSHIP */
