@@ -52,6 +52,10 @@ nav div {
   background-color: #242424;
 }
 
+.element-level-four {
+  background-color: #d1d1d1;
+}
+
 .first-row-main-articles {
   padding-top: 150px;
   height: 702.4px;
@@ -93,11 +97,19 @@ nav div {
 }
 
 .membership-subscribe-btn {
-  width: 320px;
+  width: 400px;
   height: 80px;
   clear: both;
-  text-align: center;
+  position: relative;
   border-radius: 10px;
+}
+
+.membership-subscribe-btn p {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
 }
 
 .membership-character {
@@ -114,10 +126,42 @@ nav div {
   grid-template-columns: repeat(3, 1fr);
 }
 
+/* LASTEST ARTICLES */
+
+.Latest-articles-link {
+  height: 162px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+
+.Latest-articles-link p {
+  line-height: 170px;
+  text-align: center;
+}
+
+/* LASTEST ARTICLES */
+
+/*  ETHICAL BOOK */
+
+.ethical-book {
+  height: 1200px;
+  color: white;
+}
+
+.ethical-book h2 {
+  line-height: 1200px;
+  height: 50px;
+  margin: 0;
+  text-align: center;
+}
+
+/*  ETHICAL BOOK */
+
 .newsletter-pair {
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
+
 footer {
   height: 500px;
   background-color: darkgray;
@@ -128,5 +172,3 @@ footer {
   justify-content: space-around;
   flex-wrap: wrap;
 }
-
-
