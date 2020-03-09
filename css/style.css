@@ -7,7 +7,16 @@
 
 body {
   font-family: 'Dosis', sans-serif;
-  /* color: white; */
+  color: white;
+}
+
+body article,
+body section{
+  border: 1px solid black;
+}
+
+p {
+  margin: 0;
 }
 
 /* NAVBAR */
@@ -54,6 +63,7 @@ nav div {
 
 .element-level-four {
   background-color: #d1d1d1;
+  color: black;
 }
 
 .first-row-main-articles {
@@ -79,13 +89,16 @@ nav div {
   padding-left: 50px;
   padding-right: 50px;
   font-size: 36px;
-  border: 1px solid black;
 }
 
-.article-tittle-underlined {
+.article-tittle-underlined article{
   font-size: 26px;
   text-decoration: underline;
-  height: 460px;
+  height: 462px;
+}
+
+.announce-and-membership{
+  height:  462px;
 }
 
 /* MEMBERSHIP */
@@ -117,6 +130,12 @@ nav div {
   height: 250px;
   float: right;
   border-radius: 10px;
+}
+
+.membership-text{
+  text-align: center;
+  line-height: 460px;
+  font-size: 30px;
 }
 
 /* MEMBERSHIP */
