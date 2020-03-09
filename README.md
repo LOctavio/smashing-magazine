@@ -1,4 +1,4 @@
-# Project Name
+# Smashing Magazine heatmap
 
 > We work on this project to learn about Desing and User Experience.
 We did a design teardown and a heatmap to highlight each element of the page according to the hierarchy on the[SmashingMagazine.com](https://www.smashingmagazine.com/)
