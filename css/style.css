@@ -1,0 +1,301 @@
+
+body {
+  font-family: 'Dosis', sans-serif;
+  color: white;
+}
+
+body article,
+body section {
+  border: 1px solid black;
+}
+
+.element-level-one {
+  background-color: #191919;
+}
+
+.element-level-two {
+  background-color: #282828;
+}
+
+.element-level-three {
+  background-color: #656565;
+}
+
+.element-level-four {
+  background-color: #9a9a9a;
+  color: black;
+}
+
+.padding,
+.posts-group article {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* NAVBAR */
+
+nav {
+  height: 170px;
+  min-width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 31px;
+  background-color: darkgray;
+}
+
+nav div {
+  flex-grow: 1;
+  flex-basis: 100px;
+  text-align: center;
+}
+
+/* NAVBAR */
+
+/* TITLE */
+
+.container > h1 {
+  position: absolute;
+  padding: 10px;
+  top: 170px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: black;
+  background-color: white;
+  font-size: 32px;
+}
+
+/* TITLE */
+
+/* MAIN ARTICLES */
+
+.first-row-main-articles {
+  padding-top: 150px;
+  height: 702.4px;
+}
+
+.second-row-main-articles {
+  height: 524.5px;
+}
+
+/* MAIN ARTICLES */
+
+/* ARTICLES GENERAL PROPERTIES */
+
+.posts-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.two-columns-element {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.posts-group article {
+  font-size: 26px;
+}
+
+.article-tittle-underlined article {
+  font-size: 22px;
+  text-decoration: underline;
+  height: 462px;
+}
+
+.three-articles-section h2 {
+  text-align: center;
+}
+
+/* ARTICLES GENERAL PROPERTIES */
+
+/* MEMBERSHIP */
+
+.announce-and-membership {
+  height: 462px;
+}
+
+.membership {
+  height: 465px;
+  padding: 50px 50px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.membership-subscribe-btn {
+  width: 400px;
+  height: 80px;
+  clear: both;
+  position: relative;
+  border-radius: 10px;
+}
+
+.membership-subscribe-btn p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+}
+
+#membership-character {
+  float: right;
+}
+
+.images-size {
+  width: 200px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.membership-text {
+  text-align: center;
+  line-height: 460px;
+  font-size: 36px;
+}
+
+/* MEMBERSHIP */
+
+.three-articles-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* LASTEST ARTICLES */
+
+.Latest-articles-link {
+  height: 162px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+
+.Latest-articles-link p {
+  line-height: 170px;
+  text-align: center;
+}
+
+/* LASTEST ARTICLES */
+
+/*  ETHICAL BOOK */
+
+.ethical-book {
+  height: 1200px;
+  color: white;
+}
+
+.ethical-book h2 {
+  line-height: 1200px;
+  height: 50px;
+  margin: 0;
+  text-align: center;
+}
+
+/*  ETHICAL BOOK */
+
+.newsletter-pair {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.smashing-book-announcement {
+  height: 386px;
+  font-size: 36px;
+}
+
+.smashing-book-announcement p {
+  line-height: 386px;
+  width: 250px;
+  float: left;
+}
+
+.smashing-book-picture {
+  width: 200px;
+  height: 300px;
+  float: right;
+}
+
+/*  GUIDES */
+
+.guides {
+  height: 924px;
+  font-size: 26px;
+  font-weight: 900;
+}
+
+.guides div {
+  padding: 50px 50px 0 50px;
+  min-height: 462px;
+  border: 1px solid black;
+}
+
+#guides-smashing-news {
+  grid-column: 2/4;
+}
+
+/*  GUIDES */
+
+#person-of-week-element {
+  height: 330px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+}
+
+#person-of-week-element div {
+  height: 260px;
+  width: 260px;
+  float: left;
+  margin-right: 30px;
+}
+
+#person-week-articles article {
+  height: 260px;
+}
+
+#person-week-articles h2 {
+  font-size: 30px;
+}
+
+/* FOOTER */
+
+footer {
+  height: 500px;
+  padding-top: 80px;
+  text-align: center;
+  position: relative;
+}
+
+footer span {
+  position: absolute;
+  bottom: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.topics {
+  position: absolute;
+  height: 80px;
+  max-width: 700px;
+  top: 170px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.topics li {
+  flex-basis: 120px;
+}
+
+#footer-picture-left {
+  float: left;
+}
+
+#footer-picture-right {
+  float: right;
+}
+
+/* FOOTER */
