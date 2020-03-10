@@ -3,8 +3,7 @@
 > We work on this project to learn about Desing and User Experience.
 We did a design teardown and a heatmap to highlight each element of the page according to the hierarchy on the[SmashingMagazine.com](https://www.smashingmagazine.com/)
 
-![image](https://user-images.githubusercontent.com/60085697/76261390-a38f7580-6238-11ea-8ec7-4ca0de14c161.png)
-
+![image](https://user-images.githubusercontent.com/60085697/76365963-6940d980-6307-11ea-9502-cd2f81eee00b.png)
 
 ## Built With
 
@@ -14,7 +13,7 @@ We did a design teardown and a heatmap to highlight each element of the page acc
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/LOctavio/smashing-magazine/7d65bcd26f9f5799ff53535811b8c884bd4b316f/index.html)
+[Live Demo Link](https://rawcdn.githack.com/LOctavio/smashing-magazine/852a50f302a307f9fbcfc7381976460664688684/index.html)
 
 
 ## Getting Started
